@@ -1,0 +1,20 @@
+jayret-lang.github.io
+Copyright 2025 Jayret contributors
+
+This repository includes the jayret-lang submodule
+(https://github.com/jayret-lang/jayret-lang), which is derived from
+Pyret (https://github.com/brownplt/pyret-lang), originally developed by
+Joe Gibbs Politz and others and licensed under the Apache License, Version 2.0.
+
+Modifications and additions:
+Copyright 2025 Jayret contributors.
+
+------------------------------------------------------------
+Non-affiliation disclaimer
+------------------------------------------------------------
+This project (Jayret) is an independent derivative work. It is
+NOT affiliated with, endorsed by, or sponsored by the Pyret
+project, Brown PLT, or the original authors of the upstream
+work named above. "Pyret" is used here solely to describe the
+origin of this software, as permitted by section 6 of the
+Apache License, Version 2.0.

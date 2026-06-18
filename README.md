@@ -1,5 +1,10 @@
 # jayret-lang.github.io
 
+> **Notice.** This project (Jayret) is an independent derivative work.
+> It is **not affiliated with, endorsed by, or sponsored by**
+> the Pyret project, Brown PLT, or the original authors.
+> See [`NOTICE`](./NOTICE) for full attribution.
+
 Landing page for the [Jayret](https://github.com/jayret-lang/jayret-lang)
 programming language. Served at https://jayret-lang.github.io/.
 
