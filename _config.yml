@@ -1,0 +1,4 @@
+title: Jayret
+description: Jayret is a hard fork of Pyret with a Java-flavored surface syntax.
+exclude:
+  - index.html

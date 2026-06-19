@@ -1,17 +1,54 @@
-# jayret-lang.github.io
+---
+layout: default
+permalink: /
+---
 
-> **Notice.** This project (Jayret) is an independent derivative work.
-> It is **not affiliated with, endorsed by, or sponsored by**
-> the Pyret project, Brown PLT, or the original authors.
-> See [`NOTICE`](./NOTICE) for full attribution.
+<img src="./logo.png" alt="Jayret logo" class="logo" width="180" height="180">
 
-Landing page for the [Jayret](https://github.com/jayret-lang/jayret-lang)
-programming language. Served at https://jayret-lang.github.io/.
+# Jayret
 
-Just a single static page (`index.html` + `style.css` + a logo).
-GitHub Pages serves it directly from `main`; no build step.
+#### *[BlueJ](https://www.bluej.org/) goes [Pyret](https://pyret.org/)*
 
-The playground that the page links to (`./code/`) lives in a
-separate repo: [jayret-lang/code](https://github.com/jayret-lang/code).
-Its project Pages URL is `https://jayret-lang.github.io/code/`,
-which is how the relative link from this landing page resolves.
+Jayret is a hard fork of [Pyret](https://pyret.org) with a Java-flavored surface syntax --- Java-style braces, types, and declarations, compiling to the same Pyret AST and reusing Pyret's runtime, libraries, and educational ecosystem (where appropriate).
+{: .tagline}
+
+Try Jayret in browser: 
+
+- [In-browser playground](./code/) --- write and run Jayret programs
+  without installing anything.
+{: .links}
+
+Learn (with) Jayret:
+
+- [`jayret-spec.md`](https://github.com/jayret-lang/jayret-lang/blob/main/docs/jayret-spec.md)
+  — the initial Jayret specification as one Markdown file
+
+- [Jayret documentation](https://jayret-lang.github.io/docs/) mirroring Pyret
+  documentation, **work in progress**
+
+- [_A Data-Centric Introduction to Computing_](https://jayret-lang.github.io/dcic) (DCIC)
+  — a Jayret mirror of a modern texbook introducing programming through the data-analysis
+  perspective, **work in progress**
+{: .links}
+
+
+More links:
+
+- [Source on GitHub](https://github.com/jayret-lang) --- language, npm
+  package, VSCode extension, this site.
+- [VSCode extension](https://marketplace.visualstudio.com/items?itemName=ulysses4ever.jayret-parley)
+  --- interactive editor for `.jrt` files.
+- [jayret-npm](https://www.npmjs.com/package/jayret-npm) ---
+  command-line interface (`npm install -g jayret-npm`).
+{: .links}
+
+<hr style="margin-top: 2em; border: none; border-top: 1px solid #ccc;">
+
+<footer style="margin-top: 1em; font-size: 0.9em; color: #666;">
+  <p>
+    <strong>Notice:</strong> Jayret is an independent derivative of Pyret.
+    It is <strong>not affiliated with, endorsed by, or sponsored by</strong>
+    the Pyret project, Brown PLT, or the original authors.
+    See <a href="./NOTICE">NOTICE</a> for full attribution.
+  </p>
+</footer>
